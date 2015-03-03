@@ -1,0 +1,6 @@
+@(beers: java.lang.Iterable[com.ynet.domain.Beer])
+<div class="container">
+    @beers.map { beer =>
+        <span>@beer.id</span>
+    }
+</div>
